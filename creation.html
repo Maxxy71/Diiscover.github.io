@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Web Page Design Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+ <body>
+    <div id="hero">
+        <div class="navbar">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\logo.png" class="logo">
+            <div class="user">
+                <button type="button">Explore</button>
+                <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\user.png" class="user">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+       <div class="info">
+        <h1>DISCOVER</h1>
+        <P>These 7 natural wonders of the world include the Northern Lights, the Grand Canyon, Paricutin, Mount Ever Harbor of Rio de Janeiro, Victoria Falls, and the Great Barrier Reef. Many of these naturally-formed displays require an aerial view to capture the vastness of each phenomenon.</P>
+        <input type="text" placeholder="Search">
+       </div>
+    </div>
+    <div class="slider">
+        <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\left-arrow.png" id="prev">
+        <div class="preview">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\bg1.png" class=" active thumbnail">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\bg2.png" class="thumbnail">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\bg3.png" class="thumbnail">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\bg4.png" class="thumbnail">
+            <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\bg5.png" class="thumbnail">
+        </div>
+        <img src="c:\Users\simue\OneDrive\Pictures\Radiance_img\right-arrow.png" id="next">
+    </div>
+
+    <script>
+
+        var prev= document.getElementById("prev");
+        var next= document.getElementById("next");
+        var thumbnail= document.getElementByClassName("next");
+        var hero = document.getElementById("hero");
+
+        var background= new Array(
+            'Image/bg1.png',
+            'Image/bg2.png',
+            'Image/bg3.png',
+            'Image/bg4.png',
+            'Image/bg5.png',
+        );
+
+    </script>
+</body>
+</html>
